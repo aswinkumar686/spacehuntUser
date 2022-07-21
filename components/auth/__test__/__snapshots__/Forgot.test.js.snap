@@ -1,0 +1,327 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Forgot Password Component renders without crashing 1`] = `
+<BrowserRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Provider
+      store={
+        Object {
+          "@@observable": [Function],
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        }
+      }
+    >
+      <ForgotPassword>
+        <div
+          className="main-content bg-default"
+          data-testid="forgotPassword"
+        >
+          <nav
+            className="navbar navbar-top navbar-horizontal navbar-expand-md navbar-dark"
+          >
+            <div
+              className="container px-4"
+            >
+              <Link
+                className="navbar-brand"
+                to="/"
+              >
+                <LinkAnchor
+                  className="navbar-brand"
+                  href="/"
+                  navigate={[Function]}
+                >
+                  <a
+                    className="navbar-brand"
+                    href="/"
+                    onClick={[Function]}
+                  />
+                </LinkAnchor>
+              </Link>
+              <div
+                className="collapse navbar-collapse"
+                id="navbar-collapse-main"
+              >
+                <div
+                  className="navbar-collapse-header d-md-none"
+                >
+                  <div
+                    className="row"
+                  >
+                    <div
+                      className="col-6 collapse-brand"
+                    >
+                      <a>
+                        <img
+                          src="test-file-stub"
+                        />
+                      </a>
+                    </div>
+                    <div
+                      className="col-6 collapse-close"
+                    >
+                      <button
+                        aria-controls="sidenav-main"
+                        aria-expanded="false"
+                        aria-label="Toggle sidenav"
+                        className="navbar-toggler"
+                        data-target="#navbar-collapse-main"
+                        data-toggle="collapse"
+                        type="button"
+                      >
+                        <span />
+                        <span />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <div
+            className="header bg-gradient-primary py-7 py-lg-7"
+          >
+            <div
+              className="container"
+            >
+              <div
+                className="mb-6 text-center header-body"
+              >
+                <div
+                  className="row justify-content-center"
+                >
+                  <div
+                    className="col-lg-5 col-md-6"
+                  >
+                    <h1
+                      className="text-white"
+                    >
+                      Forgot Password?
+                    </h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="separator separator-bottom separator-skew zindex-100"
+            >
+              <svg
+                preserveAspectRatio="none"
+                version="1.1"
+                viewBox="0 0 2560 100"
+                x="0"
+                xmlns="http://www.w3.org/2000/svg"
+                y="0"
+              >
+                <polygon
+                  className="fill-default"
+                  points="2560 0 2560 100 0 100"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className="container pb-5 mt--8"
+          >
+            <div
+              className="row justify-content-center"
+            >
+              <div
+                className="col-lg-5 col-md-7"
+              >
+                <div
+                  className="border-0 shadow card bg-secondary"
+                >
+                  <div
+                    className="card-body px-lg-5 py-lg-5"
+                  >
+                    <Formik
+                      initialValues={
+                        Object {
+                          "email": "",
+                        }
+                      }
+                      onSubmit={[Function]}
+                      validateOnBlur={false}
+                      validationSchema={
+                        ObjectSchema {
+                          "_blacklist": ReferenceSet {
+                            "list": Set {},
+                            "refs": Map {},
+                          },
+                          "_excludedEdges": Array [],
+                          "_mutate": undefined,
+                          "_nodes": Array [
+                            "email",
+                          ],
+                          "_sortErrors": [Function],
+                          "_typeError": [Function],
+                          "_whitelist": ReferenceSet {
+                            "list": Set {},
+                            "refs": Map {},
+                          },
+                          "conditions": Array [],
+                          "deps": Array [],
+                          "exclusiveTests": Object {},
+                          "fields": Object {
+                            "email": StringSchema {
+                              "_blacklist": ReferenceSet {
+                                "list": Set {},
+                                "refs": Map {},
+                              },
+                              "_blacklistError": undefined,
+                              "_typeError": [Function],
+                              "_whitelist": ReferenceSet {
+                                "list": Set {},
+                                "refs": Map {},
+                              },
+                              "_whitelistError": undefined,
+                              "conditions": Array [],
+                              "deps": Array [],
+                              "exclusiveTests": Object {
+                                "email": false,
+                                "required": true,
+                              },
+                              "spec": Object {
+                                "abortEarly": true,
+                                "nullable": false,
+                                "presence": "required",
+                                "recursive": true,
+                                "strict": false,
+                                "strip": false,
+                              },
+                              "tests": Array [
+                                [Function],
+                                [Function],
+                              ],
+                              "transforms": Array [
+                                [Function],
+                              ],
+                              "type": "string",
+                            },
+                          },
+                          "spec": Object {
+                            "abortEarly": true,
+                            "nullable": false,
+                            "presence": "optional",
+                            "recursive": true,
+                            "strict": false,
+                            "strip": false,
+                          },
+                          "tests": Array [],
+                          "transforms": Array [
+                            [Function],
+                          ],
+                          "type": "object",
+                        }
+                      }
+                    >
+                      <form
+                        role="form"
+                      >
+                        <div
+                          className="mt-3 mb-3 form-group"
+                        >
+                          <div
+                            className="input-group input-group-alternative"
+                          >
+                            <div
+                              className="input-group-prepend"
+                            >
+                              <span
+                                className="input-group-text"
+                              >
+                                <i
+                                  className="ni ni-email-83"
+                                />
+                              </span>
+                            </div>
+                            <input
+                              className="form-control form-control-user"
+                              name="email"
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              placeholder="Enter Email Address"
+                              type="email"
+                              value=""
+                            />
+                          </div>
+                        </div>
+                        <div
+                          className="form-group"
+                        />
+                        <div
+                          className="text-center"
+                        >
+                          <button
+                            className="my-2 btn btn-primary"
+                            data-testid="forgotbtn"
+                            onClick={[Function]}
+                            type="button"
+                          >
+                            <span>
+                              Send
+                            </span>
+                          </button>
+                          <div
+                            className="text-center col-12 fgt"
+                          >
+                            <Link
+                              className="cursor-pointer text-dark"
+                              to="/"
+                            >
+                              <LinkAnchor
+                                className="cursor-pointer text-dark"
+                                href="/"
+                                navigate={[Function]}
+                              >
+                                <a
+                                  className="cursor-pointer text-dark"
+                                  href="/"
+                                  onClick={[Function]}
+                                >
+                                  <small>
+                                    Back to Login
+                                  </small>
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                          </div>
+                        </div>
+                      </form>
+                    </Formik>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ForgotPassword>
+    </Provider>
+  </Router>
+</BrowserRouter>
+`;

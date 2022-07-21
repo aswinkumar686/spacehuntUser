@@ -1,0 +1,157 @@
+.Toastify__toast-container {
+  width: fit-content !important;
+}
+.Toastify__toast {
+  display: contents !important;
+}
+.Toastify__toast-container--bottom-center {
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 70%;
+  text-align: center;
+}
+
+.disabled-a {
+  pointer-events: none;
+  cursor: default !important;
+}
+
+
+
+
+.custom-2-box .custom-selct-2 button{
+  padding-left: 25px;
+  padding-right: 25px;
+  height: 80px;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  font-size: 28px !important;
+  color: #000;
+  font-weight: 500;
+  border-radius: 16px;
+  box-shadow: none; }
+  
+
+      
+.custom-2-box .css-1s2u09g-control, .custom-2-box .css-1pahdxg-control{
+  padding-left: 25px !important;
+  /* padding-right: 25px; */
+  background-color: #fff;
+  border: 1px solid #ccc !important;
+  font-size: 28px !important;
+  color: #000;
+  font-weight: 500;
+  border-radius: 16px !important;
+  box-shadow: none; 
+}
+.custom-2-box .css-6j8wv5-Input, .custom-2-box input{
+  height: 75px;
+  margin: 0;
+}
+.custom-2-box input{
+  margin: 0 !important;
+  height: 75px !important;
+}
+.custom-2-box .css-319lph-ValueContainer{
+  padding-left: 0 !important;
+}
+
+.datepicker-box .react-date-picker__wrapper{
+  padding-left: 25px;
+  padding-right: 25px;
+  height: 80px;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  font-size: 28px;
+  color: #000;
+  font-weight: 500;
+  border-radius: 16px;
+  box-shadow: none;
+}
+.datepicker-box .react-date-picker{
+  width: 100%;
+}
+
+
+@media (max-width: 1679px) {
+  .custom-2-box .css-1s2u09g-control, .custom-2-box .css-1pahdxg-control{
+    font-size: 25px  !important;
+    } }
+@media (max-width: 1450px) {
+  .custom-2-box .css-1s2u09g-control, .custom-2-box .css-1pahdxg-control{
+    font-size: 22px  !important;
+    } }
+@media (max-width: 1199px) {
+  .custom-2-box .css-1s2u09g-control, .custom-2-box .css-1pahdxg-control{
+    font-size: 20px  !important; } }
+@media (max-width: 991px) {
+  .custom-2-box .css-1s2u09g-control, .custom-2-box .css-1pahdxg-control{
+    font-size: 18px  !important;
+     } }
+@media (max-width: 767px) {
+  .custom-2-box .css-1s2u09g-control, .custom-2-box .css-1pahdxg-control{
+    font-size: 16px  !important;
+    } }
+    
+
+@media (max-width: 1679px) {
+  .custom-2-box .css-6j8wv5-Input, .custom-2-box input{
+    height: 65px !important; } }
+@media (max-width: 1450px) {
+  .custom-2-box .css-6j8wv5-Input, .custom-2-box input{
+    height: 60px !important;
+  } .custom-2-box .css-1s2u09g-control, .custom-2-box .css-1pahdxg-control{
+    
+    padding-left: 20px !important;
+    }
+  }
+@media (max-width: 1199px) {
+  .custom-2-box .css-6j8wv5-Input, .custom-2-box input{
+    height: 53px  !important;
+    } }
+@media (max-width: 991px) {
+  .custom-2-box .css-6j8wv5-Input, .custom-2-box input{
+    font-size: 18px  !important;
+    height: 50px !important;
+    }
+    .custom-2-box .css-1s2u09g-control, .custom-2-box .css-1pahdxg-control{
+      border-radius: 12px !important; 
+    }
+   }
+@media (max-width: 767px) {
+  .custom-2-box .css-6j8wv5-Input, .custom-2-box input{
+    height: 42px !important; } }
+
+
+    /* --- */
+    @media (max-width: 1679px) {
+      .custom-2-box .custom-selct-2 button, .datepicker-box .react-date-picker__wrapper {
+        font-size: 25px  !important;
+        height: 70px; } }
+    @media (max-width: 1450px) {
+      .custom-2-box .custom-selct-2 button, .datepicker-box .react-date-picker__wrapper {
+        font-size: 22px  !important;
+        height: 65px;
+        padding-left: 20px;
+        padding-right: 20px; } }
+    @media (max-width: 1199px) {
+      .custom-2-box .custom-selct-2 button, .datepicker-box .react-date-picker__wrapper {
+        height: 58px;
+        font-size: 20px  !important; } }
+    @media (max-width: 991px) {
+      .custom-2-box .custom-selct-2 button, .datepicker-box .react-date-picker__wrapper {
+        font-size: 18px  !important;
+        height: 55px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 12px; } }
+    @media (max-width: 767px) {
+      .custom-2-box .custom-selct-2 button, .datepicker-box .react-date-picker__wrapper {
+        font-size: 16px  !important;
+        height: 45px; } }
+        .campaign-form-block{
+          overflow: visible;
+        }
